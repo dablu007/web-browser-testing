@@ -11,7 +11,7 @@ public class Main {
             DesiredCapabilities cap = DesiredCapabilities.firefox();
             cap.setCapability("marionette", true);
             WebDriver driver = new FirefoxDriver(cap);
-            driver.get("http://www.google.com");
+            driver.get("http://54.201.23.67/cf/default/login");
 
         }
 }
